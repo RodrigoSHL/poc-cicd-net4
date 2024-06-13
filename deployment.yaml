@@ -67,7 +67,7 @@ spec:
         kubernetes.io/os: windows
       containers:
       - name: webappnet-framework
-        image: CLOUDDEMO_IMAGE
+        image: us-central1-docker.pkg.dev/gke-poc-421401/webappnet-repo/webappnet-framework:latest
         ports:
           - containerPort: 80
         livenessProbe:      # Used by deployment controller
