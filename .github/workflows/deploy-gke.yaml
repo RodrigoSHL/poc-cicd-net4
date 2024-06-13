@@ -1,0 +1,74 @@
+name: Build and Deploy to GKE
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  PROJECT_NUMBER: ${{ secrets.GCP_PROJECT_NUMBER }}
+  CLUSTER: poc-tcit-cicd
+  CLUSTER_ZONE: us-central1-b
+  REPOSITORY: clouddemo 
+  REPOSITORY_REGION: us-central1
+  IMAGE: tcit-repo
+
+jobs:
+  build:
+    runs-on: windows-2019  # Matches WINDOWS_LTSC in GKE
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    # Authenticate to Google Cloud using service account key
+    - id: 'auth'
+      name: 'Obtain access token by using service account key'
+      uses: 'google-github-actions/auth@v1'
+      with:
+        credentials_json: ${{ secrets.GCP_CREDENTIALS }}        
+                
+    - name: Connect to GKE
+      uses: google-github-actions/get-gke-credentials@v1
+      with:
+        cluster_name: ${{ env.CLUSTER }}
+        location: ${{ env.CLUSTER_ZONE }}
+
+    - name: Configure Docker for Artifact Registry
+      run: gcloud auth configure-docker ${{ env.REPOSITORY_REGION }}-docker.pkg.dev
+
+
+    # Build the .NET code
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1
+
+    - name: Restore NuGet packages
+      run: nuget restore WebAppNetFramework.sln
+
+    - name: Build solution
+      run: msbuild /t:Rebuild /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile WebAppNetFramework.sln
+
+    # Build the Docker image and push it to Artifact Registry
+    - name: Create image tag
+      run: echo "IMAGE_TAG=${{ env.REPOSITORY_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.IMAGE }}:$env:GITHUB_SHA" >> $env:GITHUB_ENV
+
+    - name: Lock image version in deployment.yaml
+      shell: pwsh
+      run: (Get-Content deployment.yaml) -replace "CLOUDDEMO_IMAGE","${{ env.IMAGE_TAG }}" | Out-File -Encoding ASCII deployment.yaml
+
+    - name: Build Docker image
+      run: docker build --tag "${{ env.IMAGE_TAG }}" webappnet-framework
+
+    - name: Publish Docker image to Google Artifact Registry
+      run: docker push "${{ env.IMAGE_TAG }}"
+
+    # Deploy to GKE
+    - name: Deploy to GKE
+      run: kubectl apply -f deployment.yaml
