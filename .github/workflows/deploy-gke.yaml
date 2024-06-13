@@ -8,11 +8,11 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   PROJECT_NUMBER: ${{ secrets.GCP_PROJECT_NUMBER }}
-  CLUSTER: poc-tcit-cicd
-  CLUSTER_ZONE: us-central1-b
-  REPOSITORY: clouddemo 
+  CLUSTER: win-cluster
+  CLUSTER_ZONE: us-west1-b
+  REPOSITORY: webappnet-repo
   REPOSITORY_REGION: us-central1
-  IMAGE: tcit-repo
+  IMAGE: webappnet-framework
 
 jobs:
   build:
