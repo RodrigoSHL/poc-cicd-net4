@@ -1,7 +1,7 @@
 # .NET Framework
 ## Build artifacts
-bin/
-obj/
+WebAppNetFramework/bin/
+WebAppNetFramework/obj/
 
 ## Visual Studio files
 .vs/
