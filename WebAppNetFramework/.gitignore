@@ -1,0 +1,25 @@
+# .NET Framework
+## Build artifacts
+bin/
+obj/
+
+## Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+## Test Results
+TestResults/
+
+## NuGet Packages
+packages/
+
+## MSTest Test Files
+*.trx
+
+## Resharper files
+_ReSharper.*
+
+## User-specific files
+*.userprefs
