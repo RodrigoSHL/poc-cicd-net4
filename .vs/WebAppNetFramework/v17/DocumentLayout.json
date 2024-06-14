@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|c:\\users\\rodri\\source\\repos\\webappnetframework\\webappnetframework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|solutionrelative:webappnetframework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|c:\\users\\rodri\\source\\repos\\webappnetframework\\webappnetframework\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|solutionrelative:webappnetframework\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -14,15 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppNetFramework\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAppNetFramework\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:54:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Web.config",
               "RelativeDocumentMoniker": "WebAppNetFramework\\Web.config",
@@ -32,10 +57,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-06-14T16:05:29.397Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             }
           ]
         }
