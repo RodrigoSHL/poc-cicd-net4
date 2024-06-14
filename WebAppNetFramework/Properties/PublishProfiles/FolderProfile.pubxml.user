@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\rodri\source\repos\WebAppNetFramework\WebAppNetFramework\bin\Release\PublishOutput</_PublishTargetUrl>
-    <History>True|2024-06-13T21:43:58.4659415Z||;True|2024-06-13T15:22:02.6881056-04:00||;True|2024-06-13T12:26:06.8971711-04:00||;True|2024-06-13T08:52:52.2641227-04:00||;False|2024-06-13T08:51:43.8566785-04:00||;</History>
+    <History>True|2024-06-14T18:23:37.8579236Z||;True|2024-06-13T17:43:58.4659415-04:00||;True|2024-06-13T15:22:02.6881056-04:00||;True|2024-06-13T12:26:06.8971711-04:00||;True|2024-06-13T08:52:52.2641227-04:00||;False|2024-06-13T08:51:43.8566785-04:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -79,10 +79,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/10/2013 17:29:20</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/13/2024 17:43:56</publishTime>
+      <publishTime>06/14/2024 14:23:36</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/13/2024 17:43:56</publishTime>
+      <publishTime>06/14/2024 14:23:36</publishTime>
     </File>
     <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
       <publishTime>05/27/2022 23:36:16</publishTime>
@@ -301,10 +301,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/27/2022 23:42:50</publishTime>
     </File>
     <File Include="bin/WebAppNetFramework.dll">
-      <publishTime>06/13/2024 17:43:49</publishTime>
+      <publishTime>06/14/2024 14:23:32</publishTime>
     </File>
     <File Include="bin/WebAppNetFramework.pdb">
-      <publishTime>06/13/2024 17:43:49</publishTime>
+      <publishTime>06/14/2024 14:23:32</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 14:57:34</publishTime>
@@ -415,7 +415,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/13/2024 08:50:08</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/13/2024 17:43:51</publishTime>
+      <publishTime>06/14/2024 14:23:33</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.js">
       <publishTime>06/13/2024 08:50:11</publishTime>
@@ -475,7 +475,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/13/2024 08:50:19</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/13/2024 08:50:08</publishTime>
+      <publishTime>06/14/2024 13:54:54</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>06/13/2024 08:50:08</publishTime>
