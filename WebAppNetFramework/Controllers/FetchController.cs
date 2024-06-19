@@ -19,7 +19,7 @@ namespace WebAppNetFramework.Controllers
             using (HttpClient client = new HttpClient())
             {
                 // Make a GET request to the Pokemon API
-                HttpResponseMessage response = await client.GetAsync("https://pokeapi.co/api/v2/pokemon?limit=10");
+                HttpResponseMessage response = await client.GetAsync("https://pokeapi.co/api/v2/pokemon?limit=20");
 
                 if (response.IsSuccessStatusCode)
                 {
