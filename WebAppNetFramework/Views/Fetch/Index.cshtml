@@ -1,0 +1,10 @@
+﻿@model List<string>
+
+<h1>List of Pokémon</h1>
+
+<ul>
+    @foreach (var pokemonName in Model)
+    {
+        <li>@pokemonName</li>
+    }
+</ul>
