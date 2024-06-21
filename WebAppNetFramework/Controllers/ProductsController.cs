@@ -9,7 +9,7 @@ namespace WebAppMvc.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly string apiUrl = "http://34.128.144.177/api/product";
+        private readonly string apiUrl = "http://webappnet-framework-api/api/product";
 
         public async Task<ActionResult> Index()
         {
