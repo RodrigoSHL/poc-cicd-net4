@@ -13,8 +13,9 @@ namespace WebAppMvc.Controllers
 
         public async Task<ActionResult> Index()
         {
-            List<Product> products = new List<Product>();
+            ViewBag.Message = apiUrl;
 
+            List<Product> products = new List<Product>();
             try
             {
                 // Ignorar errores de certificado SSL en desarrollo
