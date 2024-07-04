@@ -9,7 +9,8 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   PROJECT_NUMBER: ${{ secrets.GCP_PROJECT_NUMBER }}
 
-  CLUSTER: win-cluster
+  CLUSTER: clouddemo-windows
+
   CLUSTER_ZONE: us-west1-a
 
   REPOSITORY: webappnet-repo

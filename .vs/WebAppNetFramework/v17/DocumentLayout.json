@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\webappnetframework\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|solutionrelative:webappnetframework\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|c:\\users\\rodri\\source\\repos\\webappnetframework\\webappnetframework\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|solutionrelative:webappnetframework\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\webappnetframework\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B5D21DA-E230-4351-A034-0EA2D4AAC5D0}|WebAppNetFramework\\WebAppNetFramework.csproj|solutionrelative:webappnetframework\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +30,36 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebAppNetFramework\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "WebAppNetFramework\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA8AAAAlAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T14:42:49.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "WebAppNetFramework\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\rodri\\source\\repos\\WebAppNetFramework\\WebAppNetFramework\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "WebAppNetFramework\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T14:47:32.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T14:47:32.31Z"
             }
           ]
         }
