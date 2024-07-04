@@ -11,7 +11,7 @@ env:
 
   CLUSTER: clouddemo-windows
 
-  CLUSTER_ZONE: us-west1-a
+  CLUSTER_ZONE: us-central1-a
 
   REPOSITORY: webappnet-repo
   REPOSITORY_REGION: us-central1
